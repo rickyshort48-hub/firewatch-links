@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FireWatch Pro</title>
+<meta name="apple-itunes-app" content="app-id=6810918371">
+<script>
+  // go.firewatchpro.watch hosts the app-link files (Base44 controls the main
+  // domain's). Anyone who lands here in a browser (no app installed) is sent on
+  // to the same page on the main site.
+  location.replace('https://firewatchpro.watch' + location.pathname + location.search + location.hash);
+</script>
+</head>
+<body style="font-family:sans-serif;padding:24px">
+<p>Opening FireWatch Pro… <a id="go" href="https://firewatchpro.watch">Continue</a></p>
+<script>document.getElementById('go').href = 'https://firewatchpro.watch' + location.pathname + location.search;</script>
+</body>
+</html>

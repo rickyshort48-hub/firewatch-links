@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["46DLK96YY3.com.firewatchpro.ios"],
+        "components": [
+          { "/": "/CheckIn*", "comment": "FireWatch Pro tag check-in links open the app" }
+        ]
+      }
+    ]
+  }
+}

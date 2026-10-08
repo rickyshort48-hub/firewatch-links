@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.firewatchpro.app",
+      "sha256_cert_fingerprints": [
+        "66:A0:59:95:37:BC:54:19:89:1C:C2:E3:61:51:95:CF:33:A8:9C:7F:52:25:82:D2:9E:17:E8:63:3B:58:29:20",
+        "E5:DC:EC:32:8C:55:A5:CE:E4:46:8B:C9:F4:F2:62:CA:69:74:78:73:40:0C:C1:BD:3F:11:39:BA:62:65:ED:94"
+      ]
+    }
+  }
+]
