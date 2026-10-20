@@ -23,24 +23,26 @@
 <style>
   :root { color-scheme: light; }
   * { box-sizing: border-box; }
-  body { margin: 0; min-height: 100vh; background: #071B36; color: #F4EEE3;
+  body { margin: 0; min-height: 100vh; background: #1A1A1D; color: #F4EEE3;
          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
          display: flex; align-items: center; justify-content: center; padding: 24px 16px; }
   main { width: 100%; max-width: 420px; text-align: center; }
-  img { width: 96px; height: auto; }
+  /* Brand (2026-10-20): charcoal page, the gold mark on a hydrant-red tile. */
+  .tile { display: inline-flex; align-items: center; justify-content: center; width: 112px; height: 112px; border-radius: 26px; background: #C8102E; }
+  img { width: 72px; height: auto; }
   h1 { font-size: 26px; line-height: 1.25; margin: 20px 0 8px; }
-  p { font-size: 16px; line-height: 1.5; color: #C3CCD8; margin: 0 0 12px; }
+  p { font-size: 16px; line-height: 1.5; color: #D4D4D8; margin: 0 0 12px; }
   .email { color: #F4EEE3; font-weight: 600; word-break: break-all; }
   .btn { display: block; width: 100%; padding: 16px; border-radius: 12px; font-size: 18px; font-weight: 700;
-         text-decoration: none; margin: 20px 0 8px; background: #D0A86E; color: #071B36; }
-  .small { font-size: 14px; color: #8C9AB0; }
+         text-decoration: none; margin: 20px 0 8px; background: #D0A86E; color: #1A1A1D; }
+  .small { font-size: 14px; color: #A1A1AA; }
   .link { display: inline-block; margin-top: 18px; color: #D0A86E; font-size: 16px; }
   .hidden { display: none; }
 </style>
 </head>
 <body>
 <main>
-  <img src="/Join/mark.png" alt="FireWatch Pro">
+  <span class="tile"><img src="/Join/mark.png" alt="FireWatch Pro"></span>
   <h1>You're invited to FireWatch Pro</h1>
   <p id="who" class="hidden">Your invitation is for <span id="email" class="email"></span>. Sign up with that email.</p>
 
